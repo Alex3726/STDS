@@ -120,7 +120,7 @@ end
 end]]
 
 local SpecialMaps = {
-	"Pizza Party",
+	"Wox's Pizza Party",
 	"Badlands II",
 	"Polluted Wastelands II",
 	--Current Special Maps ^^^^^^
@@ -140,7 +140,7 @@ local SpecialMaps = {
 }
 
 local SpecialGameMode = {
-    ["Pizza Party"] = {mode = "halloween", challenge = "PizzaParty"},
+    ["Wox's Pizza Party"] = {mode = "halloween", challenge = "PizzaParty"},
     ["Badlands II"] = {mode = "badlands", challenge = "Badlands"},
     ["Polluted Wastelands II"] = {mode = "polluted", challenge = "PollutedWasteland"},
     --Current Special Maps ^^^^^^
