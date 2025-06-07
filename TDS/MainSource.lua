@@ -13,7 +13,7 @@ local Items = {
 }
 
 local LoadLocal = false
-local MainLink = LoadLocal and "" or "https://raw.githubusercontent.com/Sigmanic/Strategies-X/main/TDS/"
+local MainLink = LoadLocal and "" or "https://raw.githubusercontent.com/Alex3726/STDS/main/TDS/"
 
 local OldTime = os.clock()
 
@@ -177,7 +177,7 @@ UILibrary.options.toggledisplay = 'Fill'
 UI = StratXLibrary.UI
 UtilitiesConfig = StratXLibrary.UtilitiesConfig
 
-local Patcher = loadstring(game:HttpGet(MainLink.."TDSTools/ConvertFunc.lua", true))()--loadstring(game:HttpGet("https://raw.githubusercontent.com/Sigmanic/Strategies-X/main/ConvertFunc.lua", true))()
+local Patcher = loadstring(game:HttpGet(MainLink.."TDSTools/ConvertFunc.lua", true))()--loadstring(game:HttpGet("https://raw.githubusercontent.com/Alex3726/STDS/main/TDS/TDSTools/ConvertFunc.lua", true))()
 function ParametersPatch(FuncsName,...)
 	if type(...) == "table" and #{...} == 1 then --select("#",...)
 		return ...
