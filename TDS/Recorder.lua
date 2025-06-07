@@ -17,7 +17,7 @@ getgenv().WriteFile = function(check,name,location,str)
     end
     if type(name) == "string" then
         if not type(location) == "string" then
-            location = ""
+            location = "C:\"
         end
         if not isfolder(location) then
             makefolder(location)
@@ -36,7 +36,7 @@ getgenv().AppendFile = function(check,name,location,str)
     end
     if type(name) == "string" then
         if not type(location) == "string" then
-            location = ""
+            location = "C:\"
         end
         if not isfolder(location) then
             WriteFile(check,name,location,str)
