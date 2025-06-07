@@ -13,7 +13,7 @@ local PreviewFolder = Workspace.PreviewFolder
 local PreviewErrorFolder = Workspace.PreviewErrorFolder
 
 function CheckPlace()
-    return if not GameSpoof then (game.PlaceId == 5591597781) else if GameSpoof == "Ingame" then true else false
+    return if not GameSpoof then (game.PlaceId == 3260590327) else if GameSpoof == "Ingame" then true else false
 end
 
 function StackPosition(Position,SkipCheck)
